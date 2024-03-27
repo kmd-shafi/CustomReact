@@ -10,6 +10,15 @@ function App() {
       Setcounter(counter);
     }
   };
+
+  // interview question on counter 🚁
+  // const addValue = () => {
+  //   Setcounter((prevCounter) => prevCounter + 1);
+  //   Setcounter((prevCounter) => prevCounter + 1);
+  //   Setcounter((prevCounter) => prevCounter + 1);
+  //   Setcounter((prevCounter) => prevCounter + 1);
+  // };
+
   const removeValue = () => {
     if (counter != 0) {
       counter = counter - 1;
